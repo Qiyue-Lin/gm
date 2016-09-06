@@ -156,7 +156,7 @@ hr {
 
 .wrapper {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 5px;
     text-align: left;
     word-wrap: break-word;
 }

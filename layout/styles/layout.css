@@ -205,7 +205,7 @@
 
 .listing li {
     margin: 0 0 30px 0;
-    padding: 0 0 20px 0;
+    padding: 0 0 5px 0;
     border-bottom: 1px solid;
 }
 
@@ -823,7 +823,10 @@ label span {
     color: inherit;
     background-color: #F9F9F9;
 }
-
+/* Columns */
+.col0{
+    margin-left: 0.06%;
+}
 /* Rows */
 .row0, .row0 a {
     color: #888888;

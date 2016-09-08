@@ -66,6 +66,7 @@ body {
 a {
     outline: none;
     text-decoration: none;
+    color: #3C3C3C;
 }
 
 .fl_left, .imgl {
@@ -101,7 +102,7 @@ img {
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body, h1, h2, h3, h4, h5, h6, .heading {
-    font-family: Georgia, "Times New Roman", Times, serif, 微软雅黑;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif
 }
 
 /* Forms

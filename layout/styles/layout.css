@@ -213,6 +213,30 @@
     margin-bottom: 0;
 }
 
+.listing-small{
+
+}
+
+.listing-small li{
+    margin: 0 0 30px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.listing-small li:last-child{
+    margin-bottom: 0;
+}
+
+.listing-small-img{
+    width: 40px;
+    height: 40px;
+}
+
+.listing-small-p{
+    line-height: 40px;
+    vertical-align: middle;
+}
+
 .mediacontainer, .mediacontainer iframe {
     display: block;
     margin: 0;
@@ -827,6 +851,13 @@ label span {
 .col0{
     margin-left: 0.06%;
 }
+.one-third-col1{
+    margin-left: 2.06%;
+}
+.one-third-col2{
+    margin-left: 2.06%;
+}
+
 /* Rows */
 .row0, .row0 a {
     color: #888888;

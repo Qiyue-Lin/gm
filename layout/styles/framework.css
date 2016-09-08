@@ -73,6 +73,10 @@ a {
     float: left;
 }
 
+.fl_left, .imgn {
+    float: left;
+}
+
 .fl_right, .imgr {
     float: right;
 }
@@ -87,6 +91,10 @@ img {
     line-height: normal;
     vertical-align: middle;
     box-sizing: border-box;
+}
+
+.imgn{
+    margin: 0 15px 10px 0;
 }
 
 .imgl {

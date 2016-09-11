@@ -82,8 +82,9 @@
 
 .catList h2 {
     height: 29px;
+    line-height: 20px;
     overflow: hidden;
-    background-color: #a5b3da;
+    background-color: #648a6b;
     border: none;
     margin: 0px;
     padding: 0px;

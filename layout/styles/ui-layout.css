@@ -29,7 +29,10 @@
 #topbar {
     padding: 10px 0 0 0;
     text-align: right;
-    font-size: 12px;
+    background-color: #5cb85c;
+    height: 40px;
+    margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 #topbar li {
@@ -37,6 +40,12 @@
     margin-right: 3px;
     padding-right: 8px;
     border-right: 1px solid;
+}
+
+#topbar li>a{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 13px;
 }
 
 #topbar li:last-child {

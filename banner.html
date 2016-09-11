@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>banner</title>
+    <link href="layout/styles/ui-layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="layout/styles/ui-news-slider.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        html body{
+            margin:0;
+            padding:0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="yx-rotaion" style="width: 770px;height: 341px;">
+        <ul class="rotaion_list">
+            <li style="border: none"><a href="#"><img src="images/绿色产品-770.jpg" alt="绿色产品"></a></li>
+            <li style="border: none"><a href="#"><img src="images/绿色工厂-770.jpg" alt="绿色工厂"></a></li>
+            <li style="border: none"><a href="#"><img src="images/绿色园区-770.jpg" alt="绿色园区"></a></li>
+            <li style="border: none"><a href="#"><img src="images/绿色供应链-770.jpg" alt="绿色供应链"></a></li>
+            <li style="border: none"><a href="#"><img src="images/绿色标准-770.jpg" alt="绿色标准"></a></li>
+        </ul>
+    </div>
+    <!-- JAVASCRIPTS -->
+    <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="layout/scripts/jquery.yx_rotaion.js"></script>
+    <script type="text/javascript">
+        $(".yx-rotaion").yx_rotaion({
+            auto:true
+        });
+    </script>
+</body>
+</html>

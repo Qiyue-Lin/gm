@@ -2,7 +2,7 @@
 
 @import url("fontawesome-4.2.0.min.css");
 @import url("../scripts/nivo-lightbox/nivo-lightbox.min.css");
-@import url("framework.css");
+@import url("ui-framework.css");
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -1070,8 +1070,8 @@ table a, #comments a {
     background-color: inherit;
 }
 
-/*********************Top 10************************/
-.like-item {
+/*********************ui-cube************************/
+.ui-cube-item {
     -webkit-transition: width .2s;
     -moz-transition: width .2s;
     -o-transition: width .2s;
@@ -1085,19 +1085,19 @@ table a, #comments a {
     margin-bottom: 10px;
     *zoom:1}
 
-.like-item:after,.like-item:before {
+.ui-cube-item:after,.ui-cube-item:before {
     content: " ";
     display: table
 }
 
-.like-item:after {
+.ui-cube-item:after {
     height: 0;
     line-height: 0;
     visibility: hidden;
     clear: both
 }
 
-.like-item:hover .fic-bottom,.like-item:hover .fic-right,.like-item:hover .fic-top {
+.ui-cube-item:hover .ui-cube-bottom,.ui-cube-item:hover .ui-cube-right,.ui-cube-item:hover .ui-cube-top {
     opacity: 1;
     filter: alpha(opacity=100);
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=(100));
@@ -1108,34 +1108,34 @@ table a, #comments a {
     transform: opacity .3s
 }
 
-.fi-logo {
+.ui-cube-logo {
     display: block;
     height: 100px;
     background-color: #f6de58
 }
 
-.fi-logo em {
+.ui-cube-logo em {
     display: block;
     position: absolute;
     left: -9999px;
 }
 
-.fi-sidebar {
+.ui-cube-sidebar {
     float: left;
     width: 100px;
     background-color: #e9a326
 }
 
-.fi-sidebar .fi-logo img {
+.ui-cube-sidebar .ui-cube-logo img {
     width: 100px;
     height: 100px
 }
 
-.fi-links {
+.ui-cube-links {
     height: 262px
 }
 
-.fi-links strong {
+.ui-cube-links strong {
     display: block;
     text-indent: 8px;
     color: #FFF;
@@ -1144,13 +1144,13 @@ table a, #comments a {
     margin-bottom: 4px
 }
 
-.fi-links div {
+.ui-cube-links div {
     overflow: hidden;
     height: 217px;
     margin: 0 0 7px 8px
 }
 
-.fi-links a {
+.ui-cube-links a {
     overflow: hidden;
     float: left;
     background-color: rgba(255,255,255,.2);
@@ -1168,7 +1168,7 @@ table a, #comments a {
     color: #fff
 }
 
-.fi-links a:hover {
+.ui-cube-links a:hover {
     background-color: #FFF;
     color: #f50;
     -webkit-transition: all .3s;
@@ -1177,13 +1177,13 @@ table a, #comments a {
     transition: all .3s
 }
 
-.fi-contain {
+.ui-cube-contain {
     float: left;
     width: 340px;
     position: relative
 }
 
-.fi-contain .fic-bottom,.fi-contain .fic-right,.fi-contain .fic-top {
+.ui-cube-contain .ui-cube-bottom,.ui-cube-contain .ui-cube-right,.ui-cube-contain .ui-cube-top {
     position: absolute;
     line-height: 0;
     font-size: 0;
@@ -1198,21 +1198,21 @@ table a, #comments a {
     z-index: 1
 }
 
-.fi-contain .fic-bottom,.fi-contain .fic-top {
+.ui-cube-contain .ui-cube-bottom,.ui-cube-contain .ui-cube-top {
     border-top: 2px solid #f6de58;
     height: 0;
     width: 100%
 }
 
-.fi-contain .fic-top {
+.ui-cube-contain .ui-cube-top {
     top: 0
 }
 
-.fi-contain .fic-bottom {
+.ui-cube-contain .ui-cube-bottom {
     bottom: 0
 }
 
-.fi-contain .fic-right {
+.ui-cube-contain .ui-cube-right {
     border-left: 2px solid #f6de58;
     width: 0;
     top: 1px;
@@ -1220,63 +1220,63 @@ table a, #comments a {
     right: 0
 }
 
-.fi-cup {
+.ui-cube-cup {
     height: 201px;
     overflow: hidden
 }
 
-.fi-banner-s {
+.ui-cube-banner-s {
     border-right: 1px solid #efefef;
     width: 100px;
     height: 205px;
     overflow: hidden
 }
 
-.fi-banner-s img {
+.ui-cube-banner-s img {
     width: 100px;
     height: 201px
 }
 
-.fi-fl img {
+.ui-cube-fl img {
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s
 }
 
-.fi-fl {
+.ui-cube-fl {
     float: left
 }
 
-.fi-fl img {
+.ui-cube-fl img {
     transition: all .2s
 }
 
-.fi-banner-l span,.fi-fl:hover>img {
+.ui-cube-banner-l span,.ui-cube-fl:hover>img {
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s
 }
 
-.fi-fl:hover>img {
+.ui-cube-fl:hover>img {
     transition: all .2s;
     opacity: .8;
     filter: alpha(opacity=80);
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=(80))
 }
 
-.fi-cwrap-d,.fi-dwrap {
+.ui-cube-cwrap-d,.ui-cube-dwrap {
     width: 138px;
     border-left: 1px solid #efefef
 }
 
-.fi-cwrap-d a,.fi-dwrap a {
+.ui-cube-cwrap-d a,.ui-cube-dwrap a {
     display: block;
     height: 61px;
     padding: 9px 9px 10px 10px;
     overflow: hidden
 }
 
-.fi-cwrap-d a strong,.fi-dwrap a strong {
+.ui-cube-cwrap-d a strong,.ui-cube-dwrap a strong {
     display: block;
     margin-top: 6px;
     width: 56px;
@@ -1284,7 +1284,7 @@ table a, #comments a {
     height: 18px
 }
 
-.fi-cwrap-d a em,.fi-dwrap a em {
+.ui-cube-cwrap-d a em,.ui-cube-dwrap a em {
     display: block;
     width: 56px;
     overflow: hidden;
@@ -1294,24 +1294,24 @@ table a, #comments a {
     margin-top: 3px
 }
 
-.fi-banner-l em,.fi-banner-l span {
+.ui-cube-banner-l em,.ui-cube-banner-l span {
     line-height: 24px;
     position: absolute
 }
 
-.fi-banner-l {
+.ui-cube-banner-l {
     position: relative;
     height: 140px;
     width: 201px;
     margin: 10px 0
 }
 
-.fi-banner-l img {
+.ui-cube-banner-l img {
     width: 180px;
     min-height: 140px
 }
 
-.fi-banner-l span {
+.ui-cube-banner-l span {
     width: 131px;
     left: 10px;
     bottom: 0;
@@ -1323,27 +1323,27 @@ table a, #comments a {
     transition: all .2s
 }
 
-.fi-banner-l:hover span,.fi-infos p a span img {
+.ui-cube-banner-l:hover span,.ui-cube-infos p a span img {
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s
 }
 
-.fi-banner-l em {
+.ui-cube-banner-l em {
     left: 0;
     width: 50px;
     background-color: #e9a326;
     color: #fff
 }
 
-.fi-banner-l i {
+.ui-cube-banner-l i {
     display: inline-block;
     width: 90px;
     height: 24px;
     font-style: normal
 }
 
-.fi-banner-l strong {
+.ui-cube-banner-l strong {
     display: block;
     height: 72px;
     overflow: hidden;
@@ -1355,20 +1355,20 @@ table a, #comments a {
     padding: 0 6px
 }
 
-.fi-banner-l:hover span {
+.ui-cube-banner-l:hover span {
     background-color: #fff;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
     transition: all .2s
 }
 
-.fi-cwrap-d a span,.fi-dwrap a span {
+.ui-cube-cwrap-d a span,.ui-cube-dwrap a span {
     height: 60px;
     width: 60px;
     overflow: hidden;
     float: right
 }
 
-.fi-cwrap-d a span img,.fi-dwrap a span img {
+.ui-cube-cwrap-d a span img,.ui-cube-dwrap a span img {
     width: 60px;
     min-height: 60px;
     -webkit-transition: all .2s;
@@ -1377,20 +1377,20 @@ table a, #comments a {
     transition: all .2s
 }
 
-.fi-cwrap-d a:hover img,.fi-dwrap a:hover img,.fi-fl img {
+.ui-cube-cwrap-d a:hover img,.ui-cube-dwrap a:hover img,.ui-cube-fl img {
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s
 }
 
-.fi-cwrap-d a:hover img,.fi-dwrap a:hover img {
+.ui-cube-cwrap-d a:hover img,.ui-cube-dwrap a:hover img {
     transition: all .2s;
     opacity: .8;
     filter: alpha(opacity=80);
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=(80))
 }
 
-.fi-cwrap a,.fi-dwrap-c a {
+.ui-cube-cwrap a,.ui-cube-dwrap-c a {
     display: block;
     position: relative;
     height: 80px;
@@ -1398,13 +1398,13 @@ table a, #comments a {
     padding: 10px
 }
 
-.fi-cwrap a span,.fi-dwrap-c a span,.like-hd a:hover {
+.ui-cube-cwrap a span,.ui-cube-dwrap-c a span,.like-hd a:hover {
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s
 }
 
-.fi-cwrap a span,.fi-dwrap-c a span {
+.ui-cube-cwrap a span,.ui-cube-dwrap-c a span {
     position: absolute;
     width: 80px;
     left: 10px;
@@ -1417,58 +1417,58 @@ table a, #comments a {
     transition: all .2s
 }
 
-.fi-cwrap-d {
+.ui-cube-cwrap-d {
     border-left: none
 }
 
-.fi-cwrap-d a {
+.ui-cube-cwrap-d a {
     height: 81px
 }
 
-.fi-cwrap-d a span {
+.ui-cube-cwrap-d a span {
     margin-top: 22px
 }
 
-.fi-cdown {
+.ui-cube-cdown {
     height: 160px;
     overflow: hidden
 }
 
-.fi-dwrap-c {
+.ui-cube-dwrap-c {
     width: 138px;
     border-left: 1px solid #efefef;
     border-right: none
 }
 
-.fi-dwrap-c a {
+.ui-cube-dwrap-c a {
     width: 120px;
     height: 64px;
     padding: 8px;
     overflow: hidden
 }
 
-.fi-dwrap-c a img {
+.ui-cube-dwrap-c a img {
     width: 120px;
     height: 64px;
     min-height: initial
 }
 
-.fi-dwrap-c a span {
+.ui-cube-dwrap-c a span {
     left: 6px;
     bottom: 8px;
     width: 125px
 }
 
-.fi-cwrap-d a,.fi-dwrap a,.fi-dwrap-c a,.fi-infos p{
+.ui-cube-cwrap-d a,.ui-cube-dwrap a,.ui-cube-dwrap-c a,.ui-cube-infos p{
     border-bottom:1px solid #efefef
 }
 
-.fi-banner-l,.fi-banner-l i,.fi-cwrap a,.fi-dwrap-c a {
+.ui-cube-banner-l,.ui-cube-banner-l i,.ui-cube-cwrap a,.ui-cube-dwrap-c a {
     text-align: center;
     overflow: hidden
 }
 
-/********************Top10*********************/
+/********************ui-cube*********************/
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
